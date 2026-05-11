@@ -1,0 +1,129 @@
+@INPROCEEDINGS{11126613,
+  author = {Sayyafzadeh, Shahrzad and Foo, Simon and Bernadin, Shonda and Chi, Hongmei},
+  booktitle = {2025 IEEE 49th Annual Computers, Software, and Applications Conference (COMPSAC)},
+  doi = {10.1109/COMPSAC65507.2025.00060},
+  keywords = {type:diffusion models for facial expression synthesis, Measurement;Location awareness;Emotion recognition;Solid modeling;Accuracy;Virtual reality;Transformers;Software;Faces;Image reconstruction;Diffusion Model;Facial Expression;Synthesized Image;Emotion Detection},
+  number = {},
+  pages = {401-410},
+  title = {SynExpression: A Diffusion-Based Framework for Controllable Facial Expression Synthesis and Emotion Detection Using Facial Segmentation Pose Maps},
+  volume = {},
+  year = {2025}
+}
+
+@INPROCEEDINGS{11445067,
+  author = {He, Xilin and Luo, Cheng and Xian, Xiaole and Li, Bing and Khan, Muhammad Haris and Ge, Zongyuan and Xie, Weicheng and Song, Siyang and Shen, Linlin and Ghanem, Bernard and Yue, Xiangyu},
+  booktitle = {2025 IEEE/CVF International Conference on Computer Vision (ICCV)},
+  doi = {10.1109/ICCV51701.2025.00949},
+  keywords = {type:synthetic data augmentation for recognition, Filtering;Filters;Circuits and systems;Protocols;Pixel;Communication systems;Videos;Computer networks;Video equipment;Internet},
+  number = {},
+  pages = {10184-10195},
+  title = {SynFER: Towards Boosting Facial Expression Recognition With Synthetic Data},
+  volume = {},
+  year = {2025}
+}
+
+@inproceedings{10.1007/978-3-031-78201-5_25,
+  abstract = {"This paper introduces LLDif, a novel diffusion-based facial expression recognition (FER) framework tailored for extremely low-light (LL) environments. Images captured under such conditions often suffer from low brightness and significantly reduced contrast, presenting challenges to conventional methods. These challenges include poor image quality that can significantly reduce the accuracy of emotion recognition. LLDif addresses these issues with a novel two-stage training process that combines a Label-aware CLIP (LA-CLIP), an embedding prior network (PNET), and a transformer-based network adept at handling the noise of low-light images. The first stage involves LA-CLIP generating a joint embedding prior distribution (EPD) to guide the LLformer in label recovery. In the second stage, the diffusion model (DM) refines the EPD inference, ultilising the compactness of EPD for precise predictions. Experimental evaluations on various LL-FER datasets have shown that LLDif achieves competitive performance, underscoring its potential to enhance FER applications in challenging lighting conditions.",},
+  address = {"Cham",},
+  author = {"Wang, Zhifeng and Zhang, Kaihao and Sankaranarayana, Ramesh",},
+  doi = {10.1007/978-3-031-78201-5_25},
+  booktitle = {"Pattern Recognition",},
+  editor = {"Antonacopoulos, Apostolos and Chaudhuri, Subhasis and Chellappa, Rama and Liu, Cheng-Lin and Bhattacharya, Saumik and Pal, Umapada",},
+  isbn = {"978-3-031-78201-5",},
+  keywords = {type:special adaptations and surveys},
+  pages = {"386--401",},
+  publisher = {"Springer Nature Switzerland",},
+  title = {"LLDif: Diffusion Models for Low-Light Facial Expression Recognition",},
+  year = {2025}
+}
+
+@article{10.1145/3653455,
+  abstract = {Facial expression generation is one of the most challenging and long-sought aspects of character animation, with many interesting applications. The challenging task, traditionally having relied heavily on digital craftspersons, remains yet to be explored. In this article, we introduce a generative framework for generating 3D facial expression sequences (i.e., 4D faces) that can be conditioned on different inputs to animate an arbitrary 3D face mesh. It is composed of two tasks: (1) learning the generative model that is trained over a set of 3D landmark sequences and (2) generating 3D mesh sequences of an input facial mesh driven by the generated landmark sequences. The generative model is based on a Denoising Diffusion Probabilistic Model (DDPM), which has achieved remarkable success in generative tasks of other domains. While it can be trained unconditionally, its reverse process can still be conditioned by various condition signals. This allows us to efficiently develop several downstream tasks involving various conditional generations, by using expression labels, text, partial sequences, or simply a facial geometry. To obtain the full mesh deformation, we then develop a landmark-guided encoder-decoder to apply the geometrical deformation embedded in landmarks on a given facial mesh. Experiments show that our model has learned to generate realistic, quality expressions solely from the dataset of relatively small size, improving over the state-of-the-art methods. Videos and qualitative comparisons with other methods can be found at . Code and models will be made available upon acceptance.},
+  address = {New York, NY, USA},
+  articleno = {7},
+  author = {Zou, Kaifeng and Faisan, Sylvain and Yu, Boyang and Valette, Sebastien and Seo, Hyewon},
+  doi = {10.1145/3653455},
+  issn = {1551-6857},
+  issue_date = {January 2025},
+  journal = {ACM Trans. Multimedia Comput. Commun. Appl.},
+  keywords = {type:diffusion models for facial expression synthesis, Diffusion model, neural networks, facial expression, generative model},
+  month = {dec,},
+  number = {1},
+  numpages = {23},
+  publisher = {Association for Computing Machinery},
+  title = {4D Facial Expression Diffusion Model},
+  url = {https://doi.org/10.1145/3653455},
+  volume = {21},
+  year = {2024}
+}
+
+@article{AFGAN2026103431,
+  abstract = {Text-to-image diffusion models have revolutionized image generation by creating high-quality visuals from text descriptions. Despite their potential for personalized text-to-image applications, existing standalone methods have struggled to provide effective semantic modifications, while approaches relying on external embeddings are computationally complex and often compromise identity and face fidelity. To overcome these challenges, we propose FaceExpr, an innovative three-instance framework using standalone text-to-image models that provide accurate facial semantic modifications and synthesize facial images with diverse expressions, all while preserving the subject’s identity. Specifically, we introduce a person-specific fine-tuning approach with two key components: (1) Attention-Focused Fusion, which uses an attention mechanism to align identity and expression features by focusing on critical facial landmarks, preserving the subject’s identity, and (2) Expression Text Embeddings, integrated into the U-Net denoising module to resolve language ambiguities and enhance expression accuracy. Additionally, an expression crafting loss is employed to strengthen the alignment between identity and expression. Furthermore, by leveraging the prior preservation loss, we enable the synthesis of expressive faces in diverse scenes, views, and conditions. FaceExpr establishes state-of-the-art performance over both standalone and hybrid methods, demonstrating its effectiveness in controllable facial expression generation. It shows strong potential for personalized content generation in digital storytelling, immersive virtual environments, and advanced research applications. For code please visit: https://github.com/MSAfganUSTC/FaceExpr.git},
+  author = {Muhammad Sher Afgan and Bin Liu and Mamoona Naveed Asghar and Wajahat Khalid and Kai Zou and Dianmo Sheng},
+  doi = {https://doi.org/10.1016/j.inffus.2025.103431},
+  issn = {1566-2535},
+  journal = {Information Fusion},
+  keywords = {type:diffusion models for facial expression synthesis, Attention, Diffusion, Expressions synthesis, Fusion, Identity preservation, Text-to-image},
+  pages = {103431},
+  title = {FaceExpr: Personalized facial expression generation via attention-focused U-Net feature fusion in diffusion models},
+  url = {https://www.sciencedirect.com/science/article/pii/S1566253525005044},
+  volume = {125},
+  year = {2026}
+}
+
+@article{Chaisiriprasert2025AWF,
+  author = {Parkpoom Chaisiriprasert and Nattapat Patchsuwan},
+  journal = {Journal of Imaging},
+  keywords = {type:special adaptations and surveys},
+  title = {A Weighted Facial Expression Analysis for Pain Level Estimation},
+  url = {https://api.semanticscholar.org/CorpusID:278470991},
+  volume = {11},
+  year = {2025}
+}
+
+@article{MA2025102753,
+  abstract = {Affective computing stands at the forefront of artificial intelligence (AI), seeking to imbue machines with the ability to comprehend and respond to human emotions. Central to this field is emotion recognition, which endeavors to identify and interpret human emotional states from different modalities, such as speech, facial images, text, and physiological signals. In recent years, important progress has been made in generative models, including Autoencoder, Generative Adversarial Network, Diffusion Model, and Large Language Model. These models, with their powerful data generation capabilities, emerge as pivotal tools in advancing emotion recognition. However, up to now, there remains a paucity of systematic efforts that review generative technology for emotion recognition. This survey aims to bridge the gaps in the existing literature by conducting a comprehensive analysis of over 330 research papers until June 2024. Specifically, this survey will firstly introduce the mathematical principles of different generative models and the commonly used datasets. Subsequently, through a taxonomy, it will provide an in-depth analysis of how generative techniques address emotion recognition based on different modalities in several aspects, including data augmentation, feature extraction, semi-supervised learning, cross-domain, etc. Finally, the review will outline future research directions, emphasizing the potential of generative models to advance the field of emotion recognition and enhance the emotional intelligence of AI systems.},
+  author = {Fei Ma and Yucheng Yuan and Yifan Xie and Hongwei Ren and Ivan Liu and Ying He and Fuji Ren and Fei Richard Yu and Shiguang Ni},
+  doi = {https://doi.org/10.1016/j.inffus.2024.102753},
+  issn = {1566-2535},
+  journal = {Information Fusion},
+  keywords = {type:special adaptations and surveys, Emotion recognition, Generative technology, Autoencoder, Generative Adversarial Network, Diffusion model, Large Language Model},
+  pages = {102753},
+  title = {Generative technology for human emotion recognition: A scoping review},
+  url = {https://www.sciencedirect.com/science/article/pii/S1566253524005311},
+  volume = {115},
+  year = {2025}
+}
+
+@article{Thapa2026AMS,
+  author = {Rahul Thapa and Magnus Ruud Kjaer and Bryan He and Ian Covert and IV HyattMoore and Umaer Hanif and Gauri Ganjoo and M. Brandon Westover and Poul Jennum and Andreas Brink-Kjaer and Emmanuel Mignot and James Zou and Magnus R{\o}nneberg Ruud},
+  journal = {Nature Medicine},
+  keywords = {type:special adaptations and surveys},
+  pages = {752 - 762},
+  title = {A multimodal sleep foundation model for disease prediction},
+  url = {https://api.semanticscholar.org/CorpusID:284529751},
+  volume = {32},
+  year = {2026}
+}
+
+@unknown{unknown,
+  author = {Ho, Jia and How, Khoh and Pang, Ying and Yap, Hui and Alvin, Fang},
+  doi = {10.20944/preprints202602.0339.v1},
+  keywords = {type:synthetic data augmentation for recognition},
+  month = {02},
+  pages = {},
+  title = {AI Creation of Facial Expression Database for Advanced Emotion Recognition},
+  year = {2026}
+}
+
+@article{YasaminZarghaminbspMuhammadMuzammilnbspVidaAd,
+  abstract = {Automated pain detection models rely on large, diverse facial expression datasets; yet pain expression data are scarce due to privacy concerns and ethical constraints. This study explores synthetic pain expression generation as a potential solution, investigating whether expression transfer methods are sufficiently accurate to expand training sets by transferring expressions from a limited set of real data to a virtually unlimited set of identities. This work represents an initial step toward the use of privacy-preserving generative AI for synthetic data generation to improve in pain detection. We introduce PainControl, a novel facial landmark-guided method for identity-preserving pain expression transfer. Rather than using motion signals from video, as in prior methods, our method adapts a ControlNet approach, using text and dense facial landmarks to control fine-grained facial muscle activations while maintaining identity consistency through image embeddings. Identity preservation enables the generation of demographically diverse datasets, improving generalizability across populations. We compare PainControl to existing expression transfer methods and evaluate (i) perceptual realism, (ii) identity preservation, (iii) facial action unit (AU) transfer accuracy, and (iv) downstream pain detection performance. Our model produces realistic synthetic pain expressions, outperforming baselines in human-rated Likert-scale assessments. However, AU transfer analysis reveals challenges in accurately synthesizing expression intensities-particularly for AU4 (Brow Lowering) and AU43 (Eye Closure), which are crucial for pain recognition. When used to augment real pain datasets, synthetic images did not improve classifier performance, likely due to artifacts, AU misalignment, and the lack of temporal motion cues. Critically, however, our experiments in data-scarce regimes, where real pain expressions are extremely limited, demonstrate that synthetic augmentation through PainControl provides significant and consistent performance gains for pain detection models. These results validate that our ControlNet-based approach has reached sufficient maturity and accuracy to serve as a reliable data augmentation tool in pain detection domains, particularly in scenarios, where acquiring real data are prohibitively difficult or ethically constrained. This finding establishes the practical viability of expression transfer methods for addressing the fundamental data scarcity challenge in affective computing and clinical pain assessment. These results highlight both the promise and current limitations of generative models for pain expression, pointing to future research in AU alignment and temporal modeling for clinical-grade applications.},
+  author = {Yasamin Zarghami, Muhammad Muzammil, Vida Adeli, Hailey Reimer, Thomas Hadjistavropoulos, Babak Taati},
+  doi = {10.1186/s12938-026-01561-2},
+  journal = {BioMedical Engineering OnLine},
+  keywords = {type:identity-preserving pain expression transfer},
+  title = {Paincontrol: identity-preserving pain expression transfer with generative diffusion models.},
+  volume = {},
+  year = {2026}
+}
+
